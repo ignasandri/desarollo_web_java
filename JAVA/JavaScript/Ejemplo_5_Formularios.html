@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es-ES">
+	<head>
+		<title> Formularios HTML </title>
+		<meta charset="utf-8" />
+	</head>
+	
+	<body>
+		<header>
+			<h1> Formularios HTML</h1> 
+		</header>
+	
+	Id:	<input id="identificador"/> <br/> <br/>
+	<form>
+		Nombre: <input id="nombre" type="text" sice="20" maxlength="10" /> <br> <br> 
+		Apellidos: <input id="Apelidos" type="text"sice="20" maxlength="10" /> <br> <br> 
+		Contraseña: <input id="pass" type="password"sice="20" maxlength="10" /> <br> <br>
+		Fecha: <input id="fecha" type="date"sice="20" maxlength="10" /> <br> <br>
+		Caja De Texto: <input id="caja" type="checkbox"/> <br> <br>
+		Email: <input id="email" type="email"/> <br> <br>
+		Color: <input id="color" type="color"/> <br> <br>
+		Teléfono: <input id="telefono" type="tlf"/> <br> <br>
+		Hora: <input id="hora" type="datetime"/> <br> <br>
+		Buscar: <input id="buscar" type="search"/> <br> <br>
+		<input type="button" value="Pulsar" />
+		<input type="submit" value="Enviar" />
+	</form>
+	
+	<script>
+	
+		var variable = "Un Valor";
+		console.log("Valor variable: " + variable);
+		
+		if (typeof(otraVariable) === "undefined");
+			console.log("Valor variable sin definir");
+			
+		var variableGlobal = "Otro valor";
+		console.log(variableGlobal);
+		
+		var miNumero = 200.5;
+		console.log("Mi numero = " + miNumero);
+		miNumero = 1/0;		// Al dividir entre 0 sale infinito.
+		console.log("Mi numero = " + miNumero);
+		miNumero = parseInt("hhh"); // Da valor Not an Number.
+		
+		console.log("Mi numero = " + miNumero);
+		
+		if (!isNaN("Hhhh")) // Si no (No es un Numero)   // si es un numero
+		{
+			miNumero = parseInt("Hhh");
+			console.log("Mi Numero = " + miNumero);
+		} else {
+			alert("No es un número!!!");
+		}
+
+		
+	</script>
+	
+	
+	</body>
+	
+</html>

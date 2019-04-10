@@ -1,0 +1,17 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+form	{
+	margin-left: 50%;
+	margin-right: 200px;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+div{
+	margin: 30px;
+	width: 200px;
+	display: block;
+}
+	 
